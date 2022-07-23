@@ -34,7 +34,7 @@ HOMEWORK_STATUSES = {
 RETRY_TIME = 600
 
 logging.basicConfig(
-    level=logging.INFO,
+    level=logging.DEBUG,
     format='%(asctime)s [%(levelname)s] %(message)s',
     stream=sys.stdout,
 )
